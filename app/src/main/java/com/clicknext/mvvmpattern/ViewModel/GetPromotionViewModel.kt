@@ -42,7 +42,7 @@ class GetPromotionViewModel : ViewModel() {
             }
 
             override fun onNext(resultGetPromotion: ResultGetPromotion) {
-                mResultGetPromotionMutableLiveData.setValue(resultGetPromotion)
+                mResultGetPromotionMutableLiveData.value = resultGetPromotion
             }
 
             override fun onError(e: Throwable) {

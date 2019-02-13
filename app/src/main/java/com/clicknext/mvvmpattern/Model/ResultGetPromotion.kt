@@ -16,17 +16,6 @@ class ResultGetPromotion {
     }
 
     class Results {
-        /**
-         * RNUM : 1
-         * promotionId : 50
-         * promotionName : ประมูลรถที่ใช่ในราคาที่ชอบ ขอไฟแนนซ์รถยนต์ได้ทันที
-         * promotionDescription : ศูนย์ประมูลรถยนต์ธนาคารเกียรตินาคินแหล่งประมูลขนาดใหญ่ ที่มีรถให้เลือกมากมาย
-         * imageUrl : https://kkauto.kiatnakin.co.th/KKBackoffice/Images/promotion/169236941514123117287351307692120250576316918671.jpg
-         * webUrl : http://www.kiatnakin.co.th/th/carauction/calendar
-         * inAppView :
-         * campaignCode :
-         * campaignName :
-         */
 
         @SerializedName("rnum")
         var rnum: String? = null
