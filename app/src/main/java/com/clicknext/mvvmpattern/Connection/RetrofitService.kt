@@ -15,10 +15,10 @@ import javax.net.ssl.X509TrustManager
 class RetrofitService {
 
     private var httpClientBuilder: OkHttpClient.Builder? = null
-    //    private val SERVICE_URL = "https://kkauto.kiatnakin.co.th/KKWebApi/" //Production
+        private val SERVICE_URL = "https://kkauto.kiatnakin.co.th/KKWebApi/" //Production
 //    private val SERVICE_URL = "http://10.208.11.71/KKWebApi/" //Test SIT
 //    private val SERVICE_URL = "http://10.217.11.71/KKWebApi/" //Test UAT
-    private val SERVICE_URL = "https://kkautouat.kiatnakin.co.th/KKWebApi/"
+//    private val SERVICE_URL = "https://kkautouat.kiatnakin.co.th/KKWebApi/"
 
     fun getRetrofit() : Retrofit {
         httpClientBuilder = OkHttpClient.Builder()
